@@ -1,0 +1,102 @@
+.post 
+{
+    padding:10px;
+    margin-top: 50px;
+}
+
+.postTop
+{
+    display: flex;
+    align-items:flex-start;
+}
+
+.accountName 
+{
+    margin-left:10px ;
+    margin-top: 5px;
+    font-weight:800;
+    cursor:pointer;
+}
+
+.postBottom
+{
+    display: flex;
+    flex-direction:column;
+    margin-top:20px;
+
+}
+
+.eachcomment
+{
+    display:flex;
+    padding-top:10px;
+    align-items:flex-start;
+    justify-content:left ;
+   
+}
+.coverpic 
+{
+    min-width:35px;
+    min-height:35px;
+    width:35px;
+    height:35px;
+    border-radius: 50%;
+    background-color: red;
+    margin-right:20px;
+}
+
+.content 
+{
+    margin: 30px 10px;
+    font-size: large;
+}
+.likepanel,.commentpanel
+{
+    display: flex;
+    align-items: center;
+}
+.commentedby 
+{
+    font-weight: bold;
+}
+.commenttext
+{
+    font-weight: lighter;
+    margin-left:20px;
+
+}
+
+.commentsection
+{
+    display: flex;
+    justify-content: space-between;
+}
+* 
+{
+    overflow-x: hidden;
+}
+
+.imagecont 
+{
+    position:relative ;
+  
+
+}
+
+.navButton 
+{
+    display:flex ;
+    position:absolute ;
+    top:50%;
+    width: 100%;
+
+    justify-content:space-between;
+}
+@media only screen and (max-width:1000px)
+{
+    .post 
+    {
+        margin-left:10px ;
+        margin-right:10px;
+    }
+}

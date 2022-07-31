@@ -1,0 +1,40 @@
+:local(.wrapper)
+{
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    top: 50%;
+    left:50%;
+    transform: translate(-50%,-50%);
+    padding:15px 5px;   
+}
+:local(.container)
+{
+    width:100vw ;
+    height :100vh ;
+    background-color: #F8F8FF
+
+
+
+}
+@media only screen and (max-width:425px)
+{
+    :local(.wrapper)
+    {
+        width:80vw;
+          }
+}
+@media only screen and (min-width:425px)
+
+{
+    :local(.wrapper)
+    {
+        width:35vw;
+    }
+}
+:local(.signup)
+{
+    text-transform: capitalize;
+    margin-top:10px;
+    margin-left:10px;
+}

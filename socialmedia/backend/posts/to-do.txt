@@ -1,0 +1,32 @@
+
+data =[
+    {
+        
+        post_data:{
+            post_id :" ",
+            posted_by:' ',   
+            posted_at : ,
+            post_type:' ',
+            caption:' '  },
+        post_images:[
+            image_urls ;
+        ],
+        post_comments:[
+            {
+                comment :
+                commented_by :
+                commented_at :
+            }
+        ]
+
+        ,
+        post_likes:[
+            people whom liked that post
+        ],
+        post_time :"  "
+    }
+
+]
+
+- get all post data which are posted by followers of user 
+- then sort them based on time they posted  
