@@ -1,0 +1,142 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap');
+
+*
+{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;;
+}
+body 
+{
+    background-color: #000000;
+background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='100%25' height='100%25' viewBox='0 0 800 800'%3E%3Cg %3E%3Ccircle fill='%23000000' cx='400' cy='400' r='600'/%3E%3Ccircle fill='%23180d1c' cx='400' cy='400' r='500'/%3E%3Ccircle fill='%23261431' cx='400' cy='400' r='400'/%3E%3Ccircle fill='%23351947' cx='400' cy='400' r='300'/%3E%3Ccircle fill='%23451e5e' cx='400' cy='400' r='200'/%3E%3Ccircle fill='%23552277' cx='400' cy='400' r='100'/%3E%3C/g%3E%3C/svg%3E");
+background-attachment: fixed;
+background-size: cover;
+}
+
+.container
+{
+    
+    position:absolute;
+    top:50%;
+    left:50%;
+    transform:translate(-50%,-50%);
+  
+}
+
+form 
+{
+    box-shadow: -5px 8px 30px -3px rgba(0,0,0,0.8);
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    border: 1px solid white;
+    height:auto;
+    
+    padding-right:40px;
+    padding-left: 40px;
+    
+}
+form input 
+{
+    border:none;
+    outline:none;
+    background-color: #E8E7F4;
+    font-weight: bolder;
+}
+.form-input 
+{
+    display: flex;
+    background-color: #E8E7F4;
+    border:1px solid black;
+    border-radius: 20px;
+    height:40px;
+    overflow: hidden;
+    align-items: center;
+
+}
+i 
+{
+    padding:4px;
+}
+
+.but
+{
+    background-color: #15C8F7;
+    cursor:pointer;
+    width: 40%;
+    text-transform: uppercase;
+    font-weight: 600;
+    margin:10%;
+    height:40px;
+    text-align: center;
+}
+.but:hover
+ {
+     background-color:#0AA0C8;
+ }
+#form-container
+{
+  display:grid;
+  row-gap: 2vh;  
+}
+h1 
+{
+    margin:10%;
+    text-transform: capitalize;
+    color:white;
+}
+span 
+{
+    color:red;
+    font-size: xx-small;
+    text-align: center;
+}
+
+#registered:hover 
+{
+    color:white;
+}
+
+#message 
+{
+    z-index:1;
+    position: relative;
+    display: none;
+
+    position: absolute;
+    
+}
+#strongpassword
+{
+    outline: none;
+    border:none;
+    width:30%;
+    padding:3px;
+}
+#strongpassword:hover +  div 
+{
+    
+    display: block;
+    
+}
+#strongpassword:hover 
+{
+    background-color: #EF53C5;
+}
+#message 
+{
+    background-color: white;
+    color:black;
+    outline: 3px dashed #EF53C5;
+    font-weight: bolder;
+    text-transform: capitalize;
+}
+#message li 
+{
+    list-style-type: none;
+    text-align: left;
+    padding:3px;
+    text-transform: capitalize;
+}

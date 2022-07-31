@@ -1,0 +1,520 @@
+@import url('https://fonts.googleapis.com/css2?family=Festive&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@1,300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Otomanopee+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Yomogi&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+
+
+
+* 
+{
+    padding:0;
+    margin:0;
+    box-sizing: border-box;
+    transition: none;
+}
+
+header 
+{
+    display:flex;
+    border:1px solid;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #F3F3F3;
+   
+}
+
+.social i 
+{
+    border:1px solid black;
+    padding:12px;
+    border-radius: 5%;
+    cursor:pointer;
+}
+
+.fa-instagram
+{
+    color:#EE8EE2;
+}
+.fa-instagram:hover {
+    background-color:#EE8EE2 ;
+    color:white;
+
+}
+.fa-facebook-f 
+{
+    color:#052ACA;
+
+}
+.fa-facebook-f:hover 
+{
+    background-color: #052ACA;
+    color: white;
+}
+
+.fa-twitter 
+{
+    color:#5BC5F6;
+}
+.fa-twitter:hover 
+{
+    background-color: #5BC5F6;
+    color:white;
+}
+
+.fa-google-plus-g 
+{
+    color:#CC3947;
+}
+.fa-google-plus-g:hover 
+{
+    background-color: #CC3947;
+    color:white;
+}
+
+#icon  h1 
+{
+    font-size: 50px;
+    font-family: 'Cormorant Garamond', serif;
+
+    
+}
+#icon h4 
+{
+    font-family: 'Dancing Script', cursive;
+    text-align: center;
+}
+#myform 
+{
+    display: flex;
+    align-items: center;
+}
+
+#mine 
+{
+    display: flex;
+    width:20vw;
+
+    padding:3px;
+    justify-content:center;
+    height:7vh;
+    align-items: center;
+}
+#mine i 
+{
+    transition: 5s ease-in;
+}
+#icon 
+{
+    cursor:pointer;
+}
+#mine form input 
+{
+    outline:none;
+    border:none;
+    margin:4px;
+    width:100%;
+    font-size: large;
+    text-transform: capitalize;
+}
+ /*.badge:after{
+
+
+    content:attr(value);
+    font-size:12px;
+    background: red;
+    border-radius:50%;
+    padding:3px;
+    position:relative;
+    left:-8px;
+    top:-10px;
+    opacity:0.9;
+    }*/
+
+#user button
+{
+    border:none;
+    outline: none;
+   
+    background-color: transparent;
+    transition: 3s ease-in all;
+
+}
+button i 
+{
+    font-size: 1.5vw;
+    margin:6px;
+}
+
+button  img 
+{
+    width:1.5vw;
+}
+#ic 
+{
+    visibility: hidden;
+}
+#login
+{
+   
+    display:none;
+    position: absolute;
+    top:8vh;
+    right:0%;
+    border:1px solid black;
+    height:20vh;
+    padding:10px;
+    justify-content: space-around;
+    align-items: center;
+    width: 10vw;
+    box-shadow: 0 6px 6px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+.fa-heart:hover 
+{
+    color:red;
+}
+#img:hover 
+{
+   transform: scale(2);
+   transition: all 1s ease;
+}
+.nextpage
+{  color:red;
+    width:100%;
+    text-align: center;
+    height: 100%;
+
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#login a 
+{
+    text-decoration: none;
+    text-transform: capitalize;
+    color:white;
+}
+
+#login a:hover
+{
+    background-color: #CBD5DD;
+    color:black;
+}
+#input 
+{
+    height:5vh;
+    border-radius: 5px;
+
+}
+#category 
+{
+    background-color: black;
+    color:white;
+    display: flex;
+ 
+    justify-content: center;
+    height:10vh;
+    
+}
+#category ul 
+{
+    display: flex;
+  
+    width:50%;
+    justify-content: space-around;
+    
+}
+#category ul li
+{
+    width:100%;
+    height: 100%;
+    list-style-type: none;
+    cursor: pointer;
+    border:1px solid transparent;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    text-transform: capitalize;
+}
+#category ul li:hover 
+{
+    color:black;
+    background-color: white;
+    transition: 1s ease all;
+}
+#container1 
+{
+    display:grid;
+    grid-template-columns: 2fr 1.5fr;
+  
+    background-color: #e7d3d3;
+    width:90vw;
+    margin:auto;
+    padding:4%;
+}
+#container1 p
+{
+    font-family: 'Anton', sans-serif;
+    font-size: xx-large;
+}
+#imagebutton 
+{
+    display:grid;
+    grid-template-columns: 1fr 1fr;
+ 
+    column-gap: -5%;
+
+  
+}
+#nameprice 
+{
+  
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    
+    align-items: center;
+}
+#nameprice p 
+{
+    margin:10%;
+}
+
+#container2 
+{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    text-align:center;
+    width:90vw;
+    margin: 5px auto;
+   
+   background-image: url("../../img/homeimage/cool-background.png");
+    padding:4%;
+    column-gap:3%;
+    text-transform: capitalize;
+}
+#table ,#des
+{
+    display:flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+}
+#button 
+{
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#button button 
+{
+    width:50%;
+    height:30px;
+    margin:3%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-transform: capitalize;
+    font-weight: 600;
+    background-color: #3385c6;
+    outline: none;
+    border-radius:5px;
+    color:black;
+    border:none;
+    cursor:pointer;
+}
+#button button:active 
+{
+   transform: scale(1.1);
+    transition: ease-in-out 3s;
+}
+#button button:nth-child(1)
+{
+background-color: tomato;
+}
+#table 
+{
+    border:1px solid;
+}
+#table table 
+{
+    width:80%;
+    height:70%
+}
+tr,td 
+{
+    text-align: left;
+}
+#des  
+{
+    text-align: justify;
+    border:1px solid black;
+    padding:4%;
+}
+#table,#des 
+{
+    border-radius: 5px;
+    background-color: #eeeeee;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    
+}
+#table:hover,#des:hover
+{
+    transform: scale(1.1);
+    transition:0.5s ease-in-out
+}
+#review 
+{
+    width:90vw;
+    margin: 5px auto;
+
+}
+#ratings 
+{
+    display:flex;
+
+}
+#ratings i 
+{
+    margin:5px;
+    transition: 0.3s ease-in;
+
+}
+#previousquestion 
+{
+    background-color: #DAD7D7;
+    
+}
+#previousquestion h3 
+{
+    font-family: 'Lobster', cursive;
+    text-align: center;
+    margin:10px;
+    font-size: x-large;
+}
+.customer 
+{
+    padding:10px;
+   
+}
+.customer  hr 
+{
+    color:black;
+    height:5px;
+    background-color: black;
+    border:none;
+    border-radius: 10px;
+    margin-top:10px;
+}
+
+#newquestion 
+{
+background-color: #DAD7D7;
+padding:10px;
+}
+
+.row 
+{
+    display: flex;
+
+}
+#postbutton 
+{
+   padding:7px 25px;
+   background-color: transparent;
+   border-radius: 10px;
+   border:1px solid #00FA9A;
+   color:#00FA9A;
+   cursor:pointer;
+   font-weight: 400;
+   text-transform: capitalize;
+}
+#postbutton:hover 
+{
+    transition: 0.5s ease-out ;
+    color:black;
+    background-color: #00FA9A;
+   
+    
+}
+#reviewfirst 
+{
+    text-transform: capitalize;
+    padding:20px;
+    color:black;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+#continue 
+{
+    border:none;
+    padding:9px 25px;
+    text-transform: capitalize;
+  
+    background-color: black;
+    border-radius: 3px;
+    color:white;
+    font-weight: 900;
+    margin-left:45vw;
+    margin-top:10px;
+    margin-bottom: 10px;
+}
+.error 
+{
+    position:absolute;
+    top:50%;
+    left:50%;
+    transform :translate(-50%,-50%);
+    display:none;
+}
+
+.fa-times 
+{
+    color:red;
+    text-align: right;
+    margin: 8px;;
+}
+#err 
+{
+    background-color: white;
+    border-radius: 6px;
+    ;
+}
+.fa-exclamation-circle 
+{
+    font-size: xx-large;
+    color:crimson;
+    margin:5px;
+    text-align: center;
+}
+#loginn
+{
+    color:black;
+    background-color: transparent;
+    padding:8px 25px;
+    margin:20px;
+    border-radius: 10px;
+    border:1px solid black;
+    text-transform: capitalize;
+    font-weight: 650;
+}
+#loginn:hover 
+{
+    color:white;
+    background-color: black;
+    transition: 0.7s ease-in;
+
+}
+#err span 
+{
+    margin:10px;
+    text-transform: capitalize;
+    font-weight: 400;
+}
