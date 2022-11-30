@@ -24,12 +24,22 @@ Like( post_id(foreign)key) , liked_by( references Account(account_id) ) )
 
 Account {
   
-  Account_id , Account_name , Followers[] , Followings[] , posts[] ,profile_pic ,about 
+  Account_id ,
+  Account_name , 
+  Followers[] ,
+  Followings[] , 
+  posts[] ,
+  profile_pic ,
+  about 
 
 }
 
 Post {
   
-  post_id , images[] , liked_by[] ,commented_by{ account_id,time,comment_text}[], info) 
+  post_id , 
+  images[] , 
+  liked_by[] ,
+  commented_by{ account_id,time,comment_text}[]  , 
+  info
 
 }
